@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libros SYSTEM "BD_pelis.dtd">
+<Peliculas>
+    <pelicula>
+        <Cod_Pelicula>12345</Cod_Pelicula>
+        <Titulo>Inception</Titulo>
+        <Director>Christopher Nolan</Director>
+        <Duracion>148 min</Duracion>
+        <Genero>Action, Adventure, Sci-Fi</Genero>
+        <Actores>
+            <actor>
+                <Cod_Actor>67890</Cod_Actor>
+                <Nombre>Leonardo</Nombre>
+                <Apellidos>DiCaprio</Apellidos>
+                <FechaNacimiento>11.11.1974</FechaNacimiento>
+                <Nacionalidad>American</Nacionalidad>
+            </actor>
+            <actor>
+                <Cod_Actor>67891</Cod_Actor>
+                <Nombre>Marion</Nombre>
+                <Apellidos>Cotillard</Apellidos>
+                <FechaNacimiento>30.09.1975</FechaNacimiento>
+                <Nacionalidad>French</Nacionalidad>
+            </actor>
+        </Actores>
+    </pelicula>
+    <pelicula>
+        <Cod_Pelicula>23456</Cod_Pelicula>
+        <Titulo>The Dark Knight</Titulo>
+        <Director>Christopher Nolan</Director>
+        <Duracion>152 min</Duracion>
+        <Genero>Action, Crime, Drama</Genero>
+        <Actores>
+            <actor>
+                <Cod_Actor>67892</Cod_Actor>
+                <Nombre>Christian</Nombre>
+                <Apellidos>Bale</Apellidos>
+                <FechaNacimiento>30.01.1974</FechaNacimiento>
+                <Nacionalidad>British</Nacionalidad>
+            </actor>
+            <actor>
+                <Cod_Actor>67893</Cod_Actor>
+                <Nombre>Heath</Nombre>
+                <Apellidos>Ledger</Apellidos>
+                <FechaNacimiento>04.04.1979</FechaNacimiento>
+                <Nacionalidad>Australian</Nacionalidad>
+            </actor>
+        </Actores>
+    </pelicula>
+    <pelicula>
+        <Cod_Pelicula>12345</Cod_Pelicula>
+        <Titulo>Inception</Titulo>
+        <Director>Christopher Nolan</Director>
+        <Duracion>148 min</Duracion>
+        <Genero>Action, Adventure, Sci-Fi</Genero>
+        <Actores>
+            <actor>
+                <Cod_Actor>67890</Cod_Actor>
+                <Nombre>Leonardo</Nombre>
+                <Apellidos>DiCaprio</Apellidos>
+                <FechaNacimiento>11.11.1974</FechaNacimiento>
+                <Nacionalidad>American</Nacionalidad>
+            </actor>
+            <actor>
+                <Cod_Actor>67891</Cod_Actor>
+                <Nombre>Marion</Nombre>
+                <Apellidos>Cotillard</Apellidos>
+                <FechaNacimiento>30.09.1975</FechaNacimiento>
+                <Nacionalidad>French</Nacionalidad>
+            </actor>
+        </Actores>
+    </pelicula>
+    <pelicula>
+        <Cod_Pelicula>23456</Cod_Pelicula>
+        <Titulo>The Dark Knight</Titulo>
+        <Director>Christopher Nolan</Director>
+        <Duracion>152 min</Duracion>
+        <Genero>Action, Crime, Drama</Genero>
+        <Actores>
+            <actor>
+                <Cod_Actor>67892</Cod_Actor>
+                <Nombre>Christian</Nombre>
+                <Apellidos>Bale</Apellidos>
+                <FechaNacimiento>30.01.1974</FechaNacimiento>
+                <Nacionalidad>British</Nacionalidad>
+            </actor>
+            <actor>
+                <Cod_Actor>67893</Cod_Actor>
+                <Nombre>Heath</Nombre>
+                <Apellidos>Ledger</Apellidos>
+                <FechaNacimiento>04.04.1979</FechaNacimiento>
+                <Nacionalidad>Australian</Nacionalidad>
+            </actor>
+        </Actores>
+    </pelicula>
+    <pelicula>
+        <Cod_Pelicula>34567</Cod_Pelicula>
+        <Titulo>The Shawshank Redemption</Titulo>
+        <Director>Frank Darabont</Director>
+        <Duracion>142 min</Duracion>
+        <Genero>Drama</Genero>
+        <Actores>
+            <actor>
+                <Cod_Actor>67894</Cod_Actor>
+                <Nombre>Tim</Nombre>
+                <Apellidos>Robbins</Apellidos>
+                <FechaNacimiento>16.10.1958</FechaNacimiento>
+                <Nacionalidad>American</Nacionalidad>
+            </actor>
+            <actor>
+                <Cod_Actor>67895</Cod_Actor>
+                <Nombre>Morgan</Nombre>
+                <Apellidos>Freeman</Apellidos>
+                <FechaNacimiento>01.06.1937</FechaNacimiento>
+                <Nacionalidad>American</Nacionalidad>
+            </actor>
+        </Actores>
+    </pelicula>
+    <pelicula>
+        <Cod_Pelicula>45678</Cod_Pelicula>
+        <Titulo>The Godfather</Titulo>
+        <Director>Francis Ford Coppola</Director>
+        <Duracion>175 min</Duracion>
+        <Genero>Crime, Drama</Genero>
+        <Actores>
+            <actor>
+                <Cod_Actor>67896</Cod_Actor>
+                <Nombre>Marlon</Nombre>
+                <Apellidos>Brando</Apellidos>
+                <FechaNacimiento>03.04.1924</FechaNacimiento>
+                <Nacionalidad>American</Nacionalidad>
+            </actor>
+            <actor>
+                <Cod_Actor>67897</Cod_Actor>
+                <Nombre>Al</Nombre>
+                <Apellidos>Pacino</Apellidos>
+                <FechaNacimiento>25.04.1940</FechaNacimiento>
+                <Nacionalidad>American</Nacionalidad>
+            </actor>
+        </Actores>
+    </pelicula>
+    <pelicula>
+        <Cod_Pelicula>56789</Cod_Pelicula>
+        <Titulo>The Matrix</Titulo>
+        <Director>The Wachowskis</Director>
+        <Duracion>136 min</Duracion>
+        <Genero>Action, Sci-Fi</Genero>
+        <Actores>
+            <actor>
+                <Cod_Actor>67898</Cod_Actor>
+                <Nombre>Keanu</Nombre>
+                <Apellidos>Reeves</Apellidos>
+                <FechaNacimiento>02.09.1964</FechaNacimiento>
+                <Nacionalidad>American</Nacionalidad>
+            </actor>
+            <actor>
+                <Cod_Actor>67899</Cod_Actor>
+                <Nombre>Carrie-Anne</Nombre>
+                <Apellidos>Moss</Apellidos>
+                <FechaNacimiento>21.08.1967</FechaNacimiento>
+                <Nacionalidad>American</Nacionalidad>
+            </actor>
+        </Actores>
+    </pelicula>
+    <pelicula>
+        <Cod_Pelicula>11</Cod_Pelicula>
+        <Titulo>La diligencia</Titulo>
+        <Director>John Ford</Director>
+        <Duracion>120 minutos</Duracion>
+        <Genero>Oeste</Genero>
+        <Actores>
+            <actor>
+                <Cod_Actor>1101</Cod_Actor>
+                <Nombre>John</Nombre>
+                <Apellidos>Wayne</Apellidos>
+                <FechaNacimiento>02/1907</FechaNacimiento>
+                <Nacionalidad>Estados Unidos</Nacionalidad>
+            </actor>
+        </Actores>
+    </pelicula>
+    <pelicula>
+        <Cod_Pelicula>12</Cod_Pelicula>
+        <Titulo>El padrino</Titulo>
+        <Director>Francis Ford Coppola</Director>
+        <Duracion>175 minutos</Duracion>
+        <Genero>Drama</Genero>
+        <Actores>
+            <actor>
+                <Cod_Actor>1201</Cod_Actor>
+                <Nombre>Marlon</Nombre>
+                <Apellidos>Brando</Apellidos>
+                <FechaNacimiento>03/1924</FechaNacimiento>
+                <Nacionalidad>Estados Unidos</Nacionalidad>
+            </actor>
+        </Actores>
+    </pelicula>
+    <pelicula>
+        <Cod_Pelicula>13</Cod_Pelicula>
+        <Titulo>La vida es bella</Titulo>
+        <Director>Roberto Benigni</Director>
+        <Duracion>116 minutos</Duracion>
+        <Genero>Drama</Genero>
+        <Actores>
+            <actor>
+                <Cod_Actor>1301</Cod_Actor>
+                <Nombre>Roberto</Nombre>
+                <Apellidos>Benigni</Apellidos>
+                <FechaNacimiento>27/10/1952</FechaNacimiento>
+                <Nacionalidad>Italia</Nacionalidad>
+            </actor>
+        </Actores>
+    </pelicula>
+</Peliculas>

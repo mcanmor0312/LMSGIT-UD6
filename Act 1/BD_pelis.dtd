@@ -1,0 +1,16 @@
+<!DOCTYPE Peliculas [
+<!ELEMENT Peliculas (pelicula*)>
+<!ELEMENT pelicula (Cod_Pelicula, Titulo, Director, Duracion, Genero, Actores)>
+<!ELEMENT Cod_Pelicula (#PCDATA)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT Duracion (#PCDATA)>
+<!ELEMENT Genero (#PCDATA)>
+<!ELEMENT Actores (actor+)>
+<!ELEMENT actor (Cod_Actor, Nombre, Apellidos, FechaNacimiento, Nacionalidad)>
+<!ELEMENT Cod_Actor (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT FechaNacimiento (#PCDATA)>
+<!ELEMENT Nacionalidad (#PCDATA)>
+]>
