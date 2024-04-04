@@ -1,0 +1,1 @@
+for $baile in doc("DB_BailesDeSalon.xml")//Bailes/baile let $n:=$baile/nombre where $baile/sala = "1" and $baile/precio > 15 and $baile/precio[@moneda="euro"] return $n
