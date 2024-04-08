@@ -1,0 +1,31 @@
+<html>
+ <head>
+    <title>Libros de la Biblioteca</title>
+ </head>
+ <body>
+    <table border="1" style="width:100%; border-collapse:collapse;">
+      <tr style="background-color:#f2f2f2;">
+        <th style="padding:10px; border:1px solid #ddd;">Título</th>
+        <th style="padding:10px; border:1px solid #ddd;">Autor</th>
+        <th style="padding:10px; border:1px solid #ddd;">Número de Páginas</th>
+        <th style="padding:10px; border:1px solid #ddd;">Editorial</th>
+        <th style="padding:10px; border:1px solid #ddd;">Edición</th>
+        <th style="padding:10px; border:1px solid #ddd;">ISBN</th>
+      </tr>
+      {
+        for $libro in doc("BD_libros.xml")/Libros/libro
+        let $autor := $libro/Autores/autor/Nombre
+        return
+          <tr style="background-color:white;">
+            <td style="padding:10px; border:1px solid #ddd;">{data($libro/Titulo)}</td>
+            <td style="padding:10px; border:1px solid #ddd;">{data($autor)}</td>
+            <td style="padding:10px; border:1px solid #ddd;">{data($libro/NumPaginas)}</td>
+            <td style="padding:10px; border:1px solid #ddd;">{data($libro/Editorial)}</td>
+            <td style="padding:10px; border:1px solid #ddd;">{data($libro/Edicion)}</td>
+            <td style="padding:10px; border:1px solid #ddd;">{data($libro/ISBN)}</td>
+          </tr>
+      }
+    </table>
+ </body>
+</html>
+
