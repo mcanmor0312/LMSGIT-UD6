@@ -1,0 +1,11 @@
+insert node
+<baile id="8">
+<nombre>Calinic</nombre>
+<precio cuota="mensual" moneda="dolares">22</precio>
+<plazas>12</plazas>
+<comienzo>03/03/2012</comienzo>
+<fin>12/08/2012</fin>
+<profesor>Lebron Astaire</profesor>
+<sala>3</sala>
+</baile>
+before doc("DB_BailesDeSalon.xml")//Bailes/baile [1]
