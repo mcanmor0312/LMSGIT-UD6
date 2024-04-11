@@ -1,0 +1,4 @@
+
+replace node
+doc("BD_libros.xml")//Libros/libro[1]/Cod_Libro
+with <Cod_Libro>12</Cod_Libro>

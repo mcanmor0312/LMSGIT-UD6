@@ -1,0 +1,1 @@
+delete node doc("BD_libros.xml")//Libros/libro[@Cod_Libro=12]

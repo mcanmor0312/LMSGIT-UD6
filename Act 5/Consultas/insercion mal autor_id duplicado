@@ -1,0 +1,28 @@
+let $nuevoLibro := 
+<libro>
+ <Cod_Libro>22</Cod_Libro>
+ <Titulo>La casa de tu abuela</Titulo>
+ <Editorial>Amarletto</Editorial>
+ <Edicion>1</Edicion>
+ <ISBN>9788466745843</ISBN>
+ <NumPaginas>200</NumPaginas>
+ <Autores>
+    <autor>
+      <Cod_Autor>0</Cod_Autor>
+      <Nombre>Daviletto</Nombre>
+      <Apellidos>Carletto</Apellidos>
+      <FechaNacimiento>01/01/1900</FechaNacimiento>
+    </autor>
+ </Autores>
+</libro>
+
+let $insertarLibro := 
+ for $libros in doc('BD_libros.xml')/Libros
+ return 
+    <Libros>
+      { $libros/libro }
+      { $nuevoLibro }
+    </Libros>
+
+
+return $insertarLibro

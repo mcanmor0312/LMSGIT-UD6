@@ -1,0 +1,2 @@
+
+delete node doc("BD_libros.xml"//Libros/libro[1]/Autores/autor/[@Cod_Autor=1]
